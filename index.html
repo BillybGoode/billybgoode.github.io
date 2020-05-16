@@ -1,86 +1,159 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="style.css"/>
-        <title>Google</title>
-    </head>
-    <body>
-        <div id="everything">
-            <div id="upper_bloc">
-                <div class="upper_items" id="gmail">
-                    <a href="https://mail.google.com/mail/?tab=wm&authuser=0&ogbl">Gmail</a>
-                </div>
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Fontawesome kit -->
+    <script src="https://kit.fontawesome.com/287f108e5c.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <title>The Surfing Project</title>
+</head>
+<body>
+
+
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">The Surfing Project</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Le programme</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Nos prochaines sessions
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Avant le confinement</a>
+                    <a class="dropdown-item" href="#">Pendant le confinement</a>
+                    <a class="dropdown-item" href="#">Après le confinement</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    <section>
+        <!-- jumbotron background image avec deux boutons-->
+        <div class="jumbotron-fluid text-center pt-5 pb-5" style="height: 30em; background-image: url(surfers.jpg); background-size : cover; background-repeat: no-repeat; background-position: center;">
+            <h1 class="text-white pt-5">Partez à l'aventure</h1>
+            <p class="text-white">Découvrez notre école de surf en peer learning</p>
+            <button type="button" class="btn btn-primary">Je m'inscris à la prochaine session</button>
+            <button type="button" class="btn btn-secondary">Je découvre le programme</button>
+        </div>
         
-                <div class="upper_items" id="images">
-                    <a href="https://www.google.fr/imghp?hl=fr&tab=wi&authuser=0&ogbl">Images</a>
+        <!-- icones Font Awesome -->
+        <div class="container text-center mt-5">
+            <h1 class="display-4">The Surfing Project en 3 points</h1>
+            <div class="row mt-4">
+                <div class="col-12 col-md-4">
+                    <i class="fas fa-money-bill-wave-alt fa-5x"></i>
+                    <h3>Pas chère</h3>
+                    <p class="text-left">Donec eu quam a augue imperdiet feugiat. Curabitur venenatis, odio et accumsan porta, ligula nisi luctus enim, at porta lectus nulla et nisl. Nullam et dignissim diam. In a enim viverra, faucibus sapien eget, auctor ligula. Morbi commodo mauris a elit vestibulum elementum. Vestibulum et eros augue. Fusce ultricies viverra dolor, in scelerisque nulla mattis ut.</p>
                 </div>
-        
-                <div class="upper_items" id="google_application">
-                    <a href="https://www.google.fr/intl/fr/about/products?tab=wh"><img src="">Apps</a>
+                <div class="col-12 col-md-4">
+                    <i class="fas fa-couch fa-5x"></i>
+                    <h3>Relax</h3>
+                    <p class="text-left">Vestibulum quis ligula malesuada, feugiat arcu nec, aliquet risus. Integer sem massa, consectetur quis mi ac, blandit egestas justo. Donec nec massa sed sapien commodo sagittis. Aenean id finibus nisl. Nulla condimentum sit amet lorem placerat faucibus. Mauris venenatis non metus nec gravida. In tempus lobortis tristique. Aenean sit amet elit eu augue lobortis convallis. </p>
                 </div>
-                
-                <div class="upper_items" id="google_account">
-                    <a href="https://accounts.google.com/SignOutOptions?hl=fr&continue=https://www.google.fr/">Accnt</a>
+                <div class="col-12 col-md-4">
+                    <i class="fas fa-users fa-5x"></i>
+                    <h3>La communauté</h3>
+                    <p class="text-left">Suspendisse congue condimentum consectetur. Vestibulum non dolor augue. Nulla facilisi. Proin eget dapibus metus, sit amet sodales nulla. Nullam vitae elementum dui, ac dapibus dolor. Aliquam ornare dolor eget sapien condimentum, ac dapibus velit volutpat. Proin vitae cursus orci. Vestibulum id neque ac nibh venenatis lobortis. Morbi egestas iaculis consectetur.</p>
                 </div>
             </div>
-
-            <div id="central_bloc">
-                <div id="google_central_logo">
-                    <img src="googlelogo_color_272x92dp.png">
-                </div>
-                <div id="search_bar">
-                    <input type="text" placeholder="Que recherchez-vous?">
-                </div>
-
-                <div id="search_buttons">
-                    <button id="search_button" type="button">Recherche Google</button>
-                    <button id="got_lucky" type="button">J'ai de la chance</button>
-                </div>
-                <div id="link_to_remote_work_tools">
-                    <a style="color: blue" href="https://www.google.com/url?q=https://learndigital.withgoogle.com/ateliersnumeriques/remote-work&source=hpp&id=19017408&ct=3&usg=AFQjCNHpJbTuAhDwA_-zIw7ct99gVNVG6w&sa=X&ved=0ahUKEwiJ7-Cqm_roAhUBxoUKHbCoD_UQ8IcBCA4">Découvrez des outils pour travailler et apprendre à distance</a>
-                </div>
-
-                <div id="change_language">
-                    <p>Google disponible en : <a style="color: blue" href="https://www.google.com">English</a></p>
-                </div>
-            </div>
-
-            <div id="lower_bloc">
-                <div class="lower_items" id="lower_bar">
-                    <p>France</p>
-                </div>
-                <div class="lowest_items" id="lowest_bar">
-                    <div id="lowest_left">
-                        <div class="ll_items" id="publicite">
-                            <a href="https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiJ7-Cqm_roAhUBxoUKHbCoD_UQkdQCCBg&url=https%3A%2F%2Fwww.google.fr%2Fintl%2Ffr_fr%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw2uB175PdVvu_s_Oh5IRJXX">Publicité</a>
-                        </div>
-                        <div class="ll_items" id="entreprise">
-                            <a href="https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiJ7-Cqm_roAhUBxoUKHbCoD_UQktQCCBk&url=https%3A%2F%2Fwww.google.fr%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw3oBerwhZw46LsPtxWHNJJA">Entreprise</a>
-                        </div>
-                        <div class="ll_items" id="a_propos">
-                            <a href="https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiJ7-Cqm_roAhUBxoUKHbCoD_UQkNQCCBo&url=https%3A%2F%2Fabout.google%2F%3Futm_source%3Dgoogle-FR%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw2FXL3-LVIL6HoBq0oweElA">&Agrave; propos</a>
-                        </div>
-                        <div class="ll_items" id="how_to">
-                            <a href="https://google.com/search/howsearchworks/?fg=1">Comment fonctionne la recherche Google ?</a>
+        </div>
+        
+        <!-- Témoignages en card boostrap -->
+        <div class="container text-center mt-5">
+            <h1 class="display-4">Témoignages</h1>
+            <div class="row mt-4">
+                <div class="col mt-4">
+                    <div class="card" style="min-width: 300px; height: 520px;">
+                        <img class="card-img-top" src="img1.jpg" style="height: 350px; object-fit: cover">
+                        <div class="card-body">
+                            <p class="card-text text-left ml-3">Nunc pharetra fermentum elementum. Morbi dui enim, vehicula id mattis in, mollis quis ligula. Proin mollis lacus vitae neque rutrum, non viverra.</p>
+                            <p class="figure-caption text-left ml-3">Le Blond, Avril 2020</p>
                         </div>
                     </div>
-                    <div id="lowest_right">
-                        <div class="lr_items" id="info_conso">
-                            <a href="https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiJ7-Cqm_roAhUBxoUKHbCoD_UQ9NMDCBM&url=https%3A%2F%2Fsupport.google.com%2Fwebsearch%3Fp%3Dfr_consumer_info%26hl%3Dfr%26fg%3D1&usg=AOvVaw2Hh0QSd76Waw_vDJR_K2KN">Info consommateurs</a>
-                        </div>
-                        <div class="lr_items" id="confidentialite">
-                            <a href="https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiJ7-Cqm_roAhUBxoUKHbCoD_UQ8awCCBQ&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Ffg%3D1&usg=AOvVaw12z8DS9cd-g0Aokit_wxri">Confidentialité</a>
-                        </div>
-                        <div class="lr_items" id="conditions">
-                            <a href="https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiJ7-Cqm_roAhUBxoUKHbCoD_UQ8qwCCBU&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Ffg%3D1&usg=AOvVaw3sEM_N0elgYQx8WbCXpj3n">Conditions</a>
-                        </div>
-                        <div class="lr_items" id="parametres">
-                            <a href="https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiJ7-Cqm_roAhUBxoUKHbCoD_UQzq0CCBY&url=https%3A%2F%2Fwww.google.fr%2Fpreferences%3Fhl%3Dfr&usg=AOvVaw1efIwbttttIx7CbiRTsvMG">Paramètres</a>
+                </div>
+                <div class="col mt-4">
+                    <div class="card" style="min-width: 300px; height: 520px;">
+                        <img class="card-img-top" src="img2.jpg" style="height: 350px; object-fit: cover">
+                        <div class="card-body">
+                            <p class="card-text text-left ml-3">Vivamus scelerisque tempor fermentum. Proin bibendum porta lacus, et mattis dolor vestibulum eget. Donec sed mi mollis, ultrices.</p>
+                            <p class="figure-caption text-left ml-3">La famille Blond, Janvier 2020</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+
+        <!-- Prix en card Bootstrap-->
+        <div class="container mt-5 text-center">
+            <h1 class="display-4">Prix</h1>
+            <div class="row mt-4">
+                <div class="col-12 col-md-4">
+                    <div class="card mt-4" style="">
+                        <div class="card-header">
+                            <h5>Semaine d'essai</h5>
+                        </div>
+                        <div class="card-body">
+                            <h1>0€</h1>
+                            <p>Kiff gratos</br>Chez toi</br>Pendant 1 semaine</p>
+                            <a href="#" class="btn btn-outline-primary btn-block">S'inscrire</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card mt-4" style="">
+                        <div class="card-header">
+                            <h5>Oiseau matinal</h5>
+                        </div>
+                        <div class="card-body">
+                            <h1>15€</h1>
+                            <p>Kiff peuchère</br>&Agrave; l'ouest</br>Pendant 12 semaines</p>
+                            <a href="#" class="btn btn-primary btn-block">S'inscrire</a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card mt-4" style="">
+                        <div class="card-header">
+                            <h5>One, two, three... viva...</h5>
+                        </div>
+                        <div class="card-body">
+                            <h1 style="display:inline-block; margin-right:10px;">7€</h1><h2 style="color: grey; display:inline-block">/ mo</h2>
+                            <p>Abo au kiff</br>Sur le web</br>Pendant 12 semaines</p>
+                            <a href="#" class="btn btn-primary btn-block">S'inscrire</a>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-5 ml-5">
+        <p> <!-- copyright icon --> &copy Boostrap, et The Surfing Project</p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
 </html>
